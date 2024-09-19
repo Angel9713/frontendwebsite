@@ -1,0 +1,12 @@
+.dropdown-menu{
+    background-color:purple;
+}
+.link{
+    color:black;
+    text-decoration: none;
+}
+.sec{
+    position: absolute;
+    left:600px;
+    color:azure;
+}

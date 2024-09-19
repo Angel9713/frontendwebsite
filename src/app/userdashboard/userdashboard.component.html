@@ -1,0 +1,38 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <nav class="navbar navbar-dark">
+               <img [src]="imglink" width="100px" height="100px" alt="">
+                <h3>WELCOME {{name}}..!</h3>
+               <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/user/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/user/products">View Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/user/cart">Cart <span class="badge bg-dark">{{cartlen}}</span></a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/user/wish">Wish list<span class="badge bg-dark">{{wishlen}}</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/user/order">View Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="" (click)="logout()">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            <div class="col-md-10">
+                <router-outlet></router-outlet>
+            </div>
+       
+
+    </div>
+
+
+</div>

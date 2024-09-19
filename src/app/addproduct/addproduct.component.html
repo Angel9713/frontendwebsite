@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-6">
+        <div class="bar">
+        <form action="" [formGroup]="form" (ngSubmit)="addme()">
+            <div>
+                <label for="" class="form-label">Product Id</label><br>
+                <input type="text" class="form-input" formControlName="id" name="pid" placeholder="Enter Id">
+            </div>
+            <div>
+                <label for="" class="form-label">Product Title</label><br>
+                <input type="text" class="form-input" formControlName="title" name="ptitle" placeholder="Enter title">
+            </div>
+            <div>
+                <label for="" class="form-label">Product Image</label><br>
+                <input type="text" class="form-input" formControlName="image" name="pimage" placeholder="Paste Url">
+            </div>
+            <div>
+                <label for="" class="form-label">Product Price</label><br>
+                <input type="text" class="form-input" formControlName="price" name="pprice" placeholder="Enter price">
+            </div>
+            <div>
+                <label for="" class="form-label">Product Category</label><br>
+                <input type="text" class="form-input" formControlName="category" name="pcategory" placeholder="Enter category">
+            </div>
+            <div>
+                <label for="" class="form-label">Product Description</label><br>
+                <input type="text" class="form-input" formControlName="description" name="pdescription" placeholder="Enter description">
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

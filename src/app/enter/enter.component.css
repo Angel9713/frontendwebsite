@@ -1,0 +1,51 @@
+/* img{
+    position: absolute;
+    left: 800px;
+    top: -20px;
+} */
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+ p{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 150px;
+  position: absolute;
+  left:55px;
+  top:25px
+}
+img{
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    width: 400px;
+}
+ div{
+    background-image: url("https://file.forms.app/sitefile/Starting%20an%20online%20retail%20business%20with%20order%20forms%20cover-min.jpg");
+    height: 658px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* position: absolute; */
+    /* margin-left: 150px; */
+    
+ }
+ 
+ a{
+   
+    border: none;
+    font-size:20px;
+    padding:10px;
+    text-decoration: none;
+    color:#8D493A;
+    font-weight: 700;
+    font-family: "Arsenal SC", sans-serif;
+    /* font-style: italic; */
+
+ }
+ .link{
+    position: absolute;
+    left: 890px;
+    top: 20px;
+ }

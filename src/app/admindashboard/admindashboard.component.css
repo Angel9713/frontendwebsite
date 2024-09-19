@@ -1,0 +1,15 @@
+.navbar{
+    background-color:purple;
+    width:200px;
+    padding:10px;
+    height: 600px;
+
+}
+.nav-link{
+    padding:20px;
+    font-weight: 500;
+    
+}
+.dropdown{
+    margin-left:950px;
+}

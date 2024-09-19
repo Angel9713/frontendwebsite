@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="example-container">
+            <form action="" [formGroup]="loginForm" (ngSubmit)="checklogin()">
+            <mat-form-field>
+              <mat-label>Username</mat-label>
+              <input matInput #input maxlength="10"  value="" formControlName="username" name=""/>
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+              <mat-label>Password</mat-label>
+              <input matInput #input maxlength="10" value="" formControlName="password" name=""/>
+            </mat-form-field>
+            <br>
+            <button class="btn btn-success" [disabled]="!loginForm.valid" type="submit">Login</button>
+            <button class="btn btn-danger" type="reset">Cancel</button>
+        </form>
+          </div>
+        </div>
+    </div>
+</div>
+
+
